@@ -3,12 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./components/App";
 
-import {Provider} from 'react-redux'
-import {reducer} from './reducers'
+import {Provider} from 'react-redux';
+import {reducer} from '../src/components/reducers/index';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-import 'semantic-ui-css/semantic.min.css'
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 

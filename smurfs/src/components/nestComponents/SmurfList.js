@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import Loader from 'react-loader-spinner'
 import Smurf from './Smurf'
-import {getData} from './actions.index'
+import {getData} from '../actions/index'
 
 const SmurfList = props=>{
     console.log('smurf props', props)
