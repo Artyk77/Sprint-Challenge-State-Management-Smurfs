@@ -5,7 +5,7 @@ import SmurfList from './nestComponents/SmurfList'
 function App(){
     return (
       <div className="App">
-        <SmurfList/>
+        <SmurfList />
       </div>
     );
   
