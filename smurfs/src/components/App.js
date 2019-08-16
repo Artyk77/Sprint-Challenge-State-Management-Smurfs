@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
-import SmurfList from './nestComponents/SmurfList'
+import SmurfList from './nestComponents/SmurfList';
+import OnboardSmurf from './nestComponents/smurfForm'
 
-function App(){
+function App() {
     return (
-      <div className="App">
-        <SmurfList />
-      </div>
+        <div className="App">
+            <OnboardSmurf />
+            <SmurfList />
+        </div>
     );
-  
 }
-
 export default App;

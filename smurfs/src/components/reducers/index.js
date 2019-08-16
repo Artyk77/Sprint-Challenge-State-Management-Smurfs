@@ -1,1 +1,1 @@
-export {reducer} from './smurfReducer'
+export { reducer } from './smurfReducer'

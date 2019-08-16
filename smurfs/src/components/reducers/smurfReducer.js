@@ -1,25 +1,25 @@
-import{
+import {
     FETCH_SMURF_DATA_START,
     FETCH_SMURF_DATA_SUCCESS,
-} from'../actions'
+} from '../actions'
 
 const initialState = {
-    smurfs : [],
-    isLoading : false,
+    smurfs: [],
+    isLoading: false,
     error: ''
 }
 
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
         case FETCH_SMURF_DATA_START:
-            return{
+            return {
                 ...state,
                 isLoading: true,
                 error: ''
             }
 
         case FETCH_SMURF_DATA_SUCCESS:
-            return{
+            return {
                 ...state,
                 isLoading: false,
                 smurfs: action.payload,
